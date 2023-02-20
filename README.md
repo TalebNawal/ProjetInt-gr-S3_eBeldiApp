@@ -2,8 +2,10 @@
 
 eBeldi est une application fullstack de E-commerce qui a pour valeur ajoutée de s’assurer que les petits commerçants marocains des produits alimentaires Beldi pourront persister à vendre leurs produits. De surplus, ils pourront le faire dans un cycle plus élargi sur le plan national.
 
-<p align="center">
+<p >
   <img width="200" src="https://github.com/TalebNawal/eBeldiApp/blob/main/splach.jpeg" >
+  <img width="200" src="https://github.com/TalebNawal/eBeldiApp/blob/main/Sign in.jpeg" >
+  <img width="200" src="https://github.com/TalebNawal/eBeldiApp/blob/main/Sign up.jpeg" >
 </p>
 
 ## Fonctionnalités
