@@ -14,7 +14,7 @@ eBeldi est une application fullstack de E-commerce qui a pour valeur ajoutée de
   <img width="200" src="https://github.com/TalebNawal/eBeldiApp/blob/main/Adresse.jpeg" >
   <img width="200" src="https://github.com/TalebNawal/eBeldiApp/blob/main/pay.jpeg" >
   <img width="200" src="https://github.com/TalebNawal/eBeldiApp/blob/main/DetailOrder.jpeg" >
-  <img width="200" src="https://github.com/TalebNawal/eBeldiApp/blob/main/serch.jpeg" >
+  <img width="200" src="https://github.com/TalebNawal/eBeldiApp/blob/main/Serch.jpeg" >
 </p>
 
 ## Fonctionnalités
