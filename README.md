@@ -45,10 +45,13 @@ eBeldi est une application fullstack de E-commerce qui a pour valeur ajoutée de
 ## Exécution locale
 
 Après avoir cloné ce référentiel, migrez vers le dossier ```eBeldiApp```. Ensuite, suivez les étapes suivantes :
+-> si vous voulez utiliser votre propre base de données il faut :
 - Créer un projet et un cluster MongoDB
 - Cliquez sur Connecter, suivez le processus où vous obtiendrez l'uri.- Remplacez l'uri MongoDB par la vôtre dans ```server/index.js```.
 - Rendez-vous dans le fichier ```lib/constants/global_variables.dart```, remplacez l'adresse IP par votre adresse IP.
 - Créer un projet Cloudinary, activer le fonctionnement non signé dans les paramètres.
+-> sinon il faut seulement se rendre dans le fichier ```lib/constants/global_variables.dart```, remplacez l'adresse IP par votre adresse IP.
+** Remarque: faites attention à la connection Internet que vous utiliser, il faut qu'elle ne soit pas public.
 
 Exécutez ensuite les commandes suivantes pour exécuter votre application :
 
