@@ -1,48 +1,44 @@
-# Amazon Clone
+# eBeldi App
 
-Full Stack Amazon Clone along with Admin Panel
+eBeldi est une application fullstack de E-commerce qui a pour valeur ajoutée de s’assurer que les petits commerçants marocains des produits alimentaires Beldi pourront persister à vendre leurs produits. De surplus, ils pourront le faire dans un cycle plus élargi sur le plan national.
 
-## Features
-- Email & Password Authentication
-- Persisting Auth State
-- Searching Products
-- Filtering Products (Based on Category)
-- Product Details
-- Rating
-- Getting Deal of the Day
-- Cart
-- Checking out with Google/Apple Pay
-- Viewing My Orders
-- Viewing Order Details & Status
-- Sign Out
-- Admin Panel
-    - Viewing All Products
-    - Adding Products
-    - Deleting Products
-    - Viewing Orders
-    - Changing Order Status
-    - Viewing Total Earnings
-    - Viewing Category Based Earnings (on Graph)
+## Fonctionnalités
 
-## YouTube
-I have created a tutorial based on this, do check it out on my channel [Rivaan Ranawat](https://youtu.be/O3nmP-lZAdg) 
-
-<p align="center">
-  <img width="600" src="https://github.com/RivaanRanawat/flutter-amazon-clone-tutorial/blob/master/screenshot.png" alt="Youtube Tutorial Image">
-</p>
+- Email & Password Authentification
+- État d'authentification persistant
+- Rechercher des produits
+- Filtrage des produits (basé sur la catégorie)
+- détails du produit
+- Noter un produit
+- Obtenir l'offre du jour
+- Panier
+- Payer avec la carte bancaire ou bien à la livraison
+- Affichage de mes commandes
+- Affichage des détails et de l'état de la commande
+- Se déconnecter
+- panneau de vendeur
+    - Affichage de tous les produits
+    - Ajout de produits
+    - Suppression de produits
+    - Affichage des commandes
+    - Modification du statut de la commande
+    - Affichage des gains totaux
+    - Affichage des revenus basés sur la catégorie (sur le graphique)
 
 
-## Running Locally
-After cloning this repository, migrate to ```flutter-amazon-clone-tutorial``` folder. Then, follow the following steps:
-- Create MongoDB Project & Cluster
-- Click on Connect, follow the process where you will get the uri.- Replace the MongoDB uri with yours in ```server/index.js```.
-- Head to ```lib/constants/global_variables.dart``` file, replace <yourip> with your IP Address. 
-- Create Cloudinary Project, enable unsigned operation in settings.
-- Head to ```lib/features/admin/services/admin_services.dart```, replace ```denfgaxvg``` and ```uszbstnu``` with your Cloud Name and Upload Preset respectively.
 
-Then run the following commands to run your app:
+## Exécution locale
 
-### Server Side
+Après avoir cloné ce référentiel, migrez vers le dossier ```eBeldiApp```. Ensuite, suivez les étapes suivantes :
+- Créer un projet et un cluster MongoDB
+- Cliquez sur Connecter, suivez le processus où vous obtiendrez l'uri.- Remplacez l'uri MongoDB par la vôtre dans ```server/index.js```.
+- Rendez-vous dans le fichier ```lib/constants/global_variables.dart```, remplacez l'adresse IP par votre adresse IP.
+- Créer un projet Cloudinary, activer le fonctionnement non signé dans les paramètres.
+
+Exécutez ensuite les commandes suivantes pour exécuter votre application :
+
+### Du côté serveur
+
 ```bash
   cd server
   npm install
@@ -51,18 +47,19 @@ Then run the following commands to run your app:
   npm start (to run script 1 time)
 ```
 
-### Client Side
+### Du côté Client 
+
 ```bash
   flutter pub get
-  open -a simulator (to get iOS Simulator)
-  flutter run
+  flutter run ou bien si vous aurez une erreur essayer flutter run --no-sound-null-safety
 ```
 
-## Tech Used
+## Technologies utilisées
+
 **Server**: Node.js, Express, Mongoose, MongoDB, Cloudinary
 
 **Client**: Flutter, Provider
     
 ## Feedback
 
-If you have any feedback, please reach out to me at namanrivaan@gmail.com
+Si vous avez des commentaires, veuillez me contacter à talebnawal575@gmail.com
